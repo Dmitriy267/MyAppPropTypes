@@ -1,0 +1,12 @@
+.search{
+    display:  flex;
+    width: 280px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.result__div{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: 400px;
+}
